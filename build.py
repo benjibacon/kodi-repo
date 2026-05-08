@@ -122,7 +122,7 @@ def build_addons_xml(repo_zip: Path, wizard_zip: Path):
         content += "  " + e + "\n"
     content += "</addons>\n"
 
-    (REPO_DIR / "addons.xml").write_text(content, encoding="utf-8")
+    (REPO_DIR / "addons.xml").write_bytes(content.encode("utf-8"))
     md5 = hashlib.md5(content.encode("utf-8")).hexdigest()
     (REPO_DIR / "addons.xml.md5").write_text(md5, encoding="utf-8")
 
