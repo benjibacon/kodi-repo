@@ -18,14 +18,14 @@
     {
       "id": "script.xbmc.backuprestore",
       "version": "auto",
-      "url": "official_kodi_repo",
-      "_note": "Installed via Kodi's built-in repo — no zip URL needed"
+      "url": "",
+      "_note": "Installed via Kodi's built-in repo — wizard handles this"
     },
     {
       "id": "script.module.cocoscrapers",
       "version": "auto",
-      "url": "repository.cocoscrapers",
-      "_note": "Installed from the CocoScrapers repo after it is added"
+      "url": "",
+      "_note": "Installed from CocoScrapers repo — wizard handles this"
     }
   ]
 }
