@@ -1,0 +1,31 @@
+{
+  "addons": [
+    {
+      "id": "plugin.video.fenlight",
+      "version": "2.2.04",
+      "url": "https://fenlightanonymouse.github.io/packages/plugin.video.fenlight-2.2.04.zip"
+    },
+    {
+      "id": "repository.cocoscrapers",
+      "version": "1.0.1",
+      "url": "https://cocojoe2411.github.io/repository.cocoscrapers-1.0.1.zip"
+    },
+    {
+      "id": "plugin.video.madtitansports",
+      "version": "2.0.29",
+      "url": "https://magnetic.website/__zips/plugin.video.madtitansports/plugin.video.madtitansports-2.0.29.zip"
+    },
+    {
+      "id": "script.xbmc.backuprestore",
+      "version": "auto",
+      "url": "official_kodi_repo",
+      "_note": "Installed via Kodi's built-in repo — no zip URL needed"
+    },
+    {
+      "id": "script.module.cocoscrapers",
+      "version": "auto",
+      "url": "repository.cocoscrapers",
+      "_note": "Installed from the CocoScrapers repo after it is added"
+    }
+  ]
+}

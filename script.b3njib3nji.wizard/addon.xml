@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.b3njib3nji.wizard"
+       name="b3njib3nji Setup Wizard"
+       version="1.0.0"
+       provider-name="b3njib3nji">
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.python.script" library="default.py"/>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">b3njib3nji Setup Wizard</summary>
+    <description lang="en_GB">One-click setup: installs FenLight AM, CocoScrapers, MadTitan Sports and Backup, restores your pre-configured settings, then walks you through entering your Real-Debrid key and authorising Trakt.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>

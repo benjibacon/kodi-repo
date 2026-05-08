@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FenLight AM — pre-configured settings template
+  -----------------------------------------------
+  Deploy this to:  Kodi userdata/addon_data/plugin.video.fenlightam/settings.xml
+  Then open Kodi, go to the add-on settings, and enter:
+    - Real-Debrid API token  (Settings > Accounts > Real-Debrid)
+    - Trakt credentials      (Settings > Accounts > Trakt > Authorise)
+
+  NOTE: If the add-on ID on your build differs from "plugin.video.fenlightam",
+        rename this folder to match the actual ID (check the add-on's addon.xml).
+-->
+<settings version="2">
+
+  <!-- ── Debrid ── -->
+  <setting id="providers.enable.realdebrid">true</setting>
+  <setting id="providers.realdebrid.token"></setting>          <!-- FILL IN: Real-Debrid token -->
+  <setting id="providers.enable.alldebrid">false</setting>
+  <setting id="providers.enable.premiumize">false</setting>
+  <setting id="providers.enable.torbox">false</setting>
+
+  <!-- ── Scraper module ── -->
+  <setting id="scraper_module">script.module.cocoscrapers</setting>
+
+  <!-- ── Trakt ── -->
+  <setting id="trakt.enabled">true</setting>
+  <setting id="trakt.token"></setting>                         <!-- FILL IN: authorise via add-on settings -->
+  <setting id="trakt.refresh_token"></setting>
+  <setting id="trakt.sync.watched">true</setting>
+  <setting id="trakt.sync.collected">true</setting>
+
+  <!-- ── Playback / quality ── -->
+  <setting id="playback.quality.order">1</setting>             <!-- 0=lowest first, 1=highest first -->
+  <setting id="playback.autoplay">true</setting>
+  <setting id="results.cache">true</setting>
+
+  <!-- ── Library ── -->
+  <setting id="library.enabled">true</setting>
+
+</settings>

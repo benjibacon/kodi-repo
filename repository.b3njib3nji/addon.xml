@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.b3njib3nji"
+       name="b3njib3nji Repository"
+       version="1.0.0"
+       provider-name="b3njib3nji">
+
+  <extension point="xbmc.addon.repository" name="b3njib3nji Repository">
+    <info compressed="false">https://benjibacon.github.io/kodi-repo/addons.xml</info>
+    <checksum>https://benjibacon.github.io/kodi-repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://benjibacon.github.io/kodi-repo/</datadir>
+  </extension>
+
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">b3njib3nji Kodi Repository</summary>
+    <description lang="en_GB">Personal repo: FenLight AM, CocoScrapers, MadTitan Sports, Backup — pre-configured for Real-Debrid.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  CocoScrapers — pre-configured settings template
+  Deploy to: Kodi userdata/addon_data/script.module.cocoscrapers/settings.xml
+-->
+<settings version="2">
+
+  <!-- Real-Debrid resolver (matches FenLight AM debrid config) -->
+  <setting id="realdebrid.enabled">true</setting>
+  <setting id="realdebrid.token"></setting>    <!-- auto-populated from FenLight AM after RD auth -->
+
+  <!-- Enabled scraper groups -->
+  <setting id="scrapers.enable.torrent">true</setting>
+  <setting id="scrapers.enable.hosters">true</setting>
+  <setting id="scrapers.enable.direct">true</setting>
+
+  <!-- Performance -->
+  <setting id="general.timeout">20</setting>
+  <setting id="general.max_results">100</setting>
+  <setting id="cache.enabled">true</setting>
+  <setting id="cache.timeout">8</setting>
+
+</settings>
